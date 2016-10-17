@@ -1143,7 +1143,8 @@ a.carousel-arrow {
 a.carousel-arrow:hover,
 a.carousel-arrow:active {
   text-decoration: none;
-  background: #00B4FF;
+  background: #b4d111;
+  color: #000000
 }
 a.carousel-arrow-prev {
   left: 0;
