@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Infinite Fingers - Smart Off-Grid</title>
-    <link>http://if.paperplane.io/contact/</link>
+    <link>http://www.infinitefingers.com/contact/</link>
     <description>Recent content in Contacts on Infinite Fingers - Smart Off-Grid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2015 12:01:00 +0000</lastBuildDate>
-    <atom:link href="http://if.paperplane.io/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.infinitefingers.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>http://if.paperplane.io/contact/contact/</link>
+      <link>http://www.infinitefingers.com/contact/contact/</link>
       <pubDate>Tue, 12 May 2015 12:01:00 +0000</pubDate>
       
-      <guid>http://if.paperplane.io/contact/contact/</guid>
+      <guid>http://www.infinitefingers.com/contact/contact/</guid>
       <description></description>
     </item>
     
