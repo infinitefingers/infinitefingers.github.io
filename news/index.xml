@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Infinite Fingers - Smart Off-Grid</title>
-    <link>http://www.infinitefingers.com/news/</link>
+    <link>http://www.infinitefingers.com/news/index.xml</link>
     <description>Recent content in News on Infinite Fingers - Smart Off-Grid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
