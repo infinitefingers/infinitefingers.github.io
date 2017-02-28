@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Infinite Fingers - Smart Off-Grid</title>
+    <title>Infinite Fingers - Smart Off-Grid</title>
     <link>http://www.infinitefingers.com/news/index.xml</link>
-    <description>Recent content in News on Infinite Fingers - Smart Off-Grid</description>
+    <description>Recent content on Infinite Fingers - Smart Off-Grid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.infinitefingers.com/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Test News Article</title>
+      <link>http://www.infinitefingers.com/news/test-news-post/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.infinitefingers.com/news/test-news-post/</guid>
+      <description>&lt;p&gt;This is just a test post containing an ordered list:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Item A&lt;/li&gt;
+&lt;li&gt;Item B&lt;/li&gt;
+&lt;li&gt;Item C&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;An example of a &lt;a href=&#34;http://www.infinitefingers.com&#34;&gt;URL linking back to our website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is an example of how to insert a gallery into a blog post using our own photos:
+&lt;p style=&#34;margin-top: 20px; margin-bottom: 20px&#34;&gt;
+
+
+
+    
+
+
+    
+        
+        
+            &lt;a class=&#34;fancybox&#34; rel=&#34;blah&#34; href=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5534.jpg&#34; title=&#34;Joan Tarragó delivering the two minute poster presentation.&#34;&gt;
+                &lt;img style=&#34;margin-right: 1px; margin-top: 4px&#34; src=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5534_t.jpg&#34;/&gt;
+            &lt;/a&gt;
+
+    
+
+
+    
+        
+        
+            &lt;a class=&#34;fancybox&#34; rel=&#34;blah&#34; href=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5540.jpg&#34; title=&#34;Joan Tarragó describing the Infinite Fingers concept.&#34;&gt;
+                &lt;img style=&#34;margin-right: 1px; margin-top: 4px&#34; src=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5540_t.jpg&#34;/&gt;
+            &lt;/a&gt;
+
+    
+
+
+    
+        
+        
+            &lt;a class=&#34;fancybox&#34; rel=&#34;blah&#34; href=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5542.jpg&#34; title=&#34;Joan Tarragó clarifying the benefits of the Infinite Fingers controller.&#34;&gt;
+                &lt;img style=&#34;margin-right: 1px; margin-top: 4px&#34; src=&#34;http://www.infinitefingers.com/img/2016.10.03_otti_off-grid_2016/IMG_5542_t.jpg&#34;/&gt;
+            &lt;/a&gt;
+
+    
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The 2016 OTTI International Conference on Solar Technologies &amp; Hybrid Mini Grids to improve energy access</title>
