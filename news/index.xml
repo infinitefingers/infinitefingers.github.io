@@ -10,7 +10,7 @@
     <atom:link href="http://www.infinitefingers.com/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Test News Article</title>
+      <title>A Test Article</title>
       <link>http://www.infinitefingers.com/news/test-news-post/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
