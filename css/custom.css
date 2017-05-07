@@ -177,7 +177,7 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
   padding: 5px 10px;
 }
 .hp-slider #item-1 {
-  background-image: url(../img/carousel/haeusleberg.jpg);
+  background-image: url(../img/carousel/intersolar_2017.jpg);
   background-size: 1300px;
   overflow: hidden;
   background-position: center center;
@@ -185,27 +185,35 @@ h1.hl small, h2.hl small, h3.hl small, h4.hl small, h5.hl small, h6.hl small {
   height: 590px;
 }
 .hp-slider #item-2 {
+  background-image: url(../img/carousel/haeusleberg.jpg);
+  background-size: 1300px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 590px;
+}
+.hp-slider #item-3 {
   background-image: url(../img/carousel/man_on_roof.jpg);
   background-size: 1300px;
   background-position: center center;
   background-repeat: no-repeat;
   height: 590px;
 }
-.hp-slider #item-3 {
+.hp-slider #item-4 {
   background-image: url(../img/carousel/pyranometer.jpg);
   background-size: 1300px;
   background-position: center center;
   background-repeat: no-repeat;
   height: 590px;
 }
-.hp-slider #item-4 {
+.hp-slider #item-5 {
   background-image: url(../img/carousel/solar_pv_module.jpg);
   background-size: 1300px;
   background-position: bottom center;
   background-repeat: no-repeat;
   height: 590px;
 }
-.hp-slider #item-5 {
+.hp-slider #item-6 {
   background-image: url(../img/carousel/man_and_inverter.jpg);
   background-size: 1300px;
   background-position: bottom center;
