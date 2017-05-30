@@ -1,0 +1,581 @@
+/*####### Navigation ##########*/
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+.logo-img{
+  #width: 70px;
+  #height: 90px;
+  height: 100px;
+  margin-left: 2rem;
+}
+
+@media all and (max-Width: 900px) { 
+.img-resp{ 
+width: 8rem; 
+height: 5rem; 
+} 
+} 
+
+
+.logo-img img{
+  width: inherit;
+  height: inherit;
+}
+.contact-button{
+  width: auto;
+  height: auto;
+  margin-right: 2rem;
+  padding: 0.25rem 0.6rem 0.3rem 0.6rem;
+  border: 0.15rem solid white;
+}
+.contact-button:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+}
+.nav-active{
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+}
+.wrapper a{
+  text-decoration: none;
+}
+.schrift{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2rem;/* war 3rem*/
+  color: white;
+}
+.pfeil{
+  position: relative;
+  top: -0.12rem;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 0 0.3rem 0rem 0;
+}
+
+/*####### ENDE Navigation ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*####### Allgemein ##########*/
+
+html{
+  font-size: 100%;
+}
+@media all and (max-Width: 900px) {
+  html{
+    font-size: 90%;
+  }
+}
+@media all and (max-Width: 767px) {
+  html{
+    font-size: 80%;
+  }
+}
+
+h1{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: inherit;
+}
+h2{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: inherit;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0b3668;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.44;
+  color: #4a4a4a;
+}
+.text-white{
+  color: #ffffff;
+}
+.text-blue{
+  color: #0b3668;
+}
+.bold{
+  font-weight: 700;
+}
+.bg-grey{
+  background-color: #eff3f6;
+}
+.bg-blue{
+  background-color: #0b3668;
+}
+.row{
+  position: relative;
+  margin: auto;
+  max-width: 1170px;
+}
+.fluid{
+  width: 100vw;
+  max-width: none;
+  padding: none;
+  margin: none;
+}
+.nopadding{
+  padding: 0;
+  margin: 0;
+}
+.padding{
+  padding: 5rem 0;
+}
+.padding-top-3{
+  padding-top: 4rem;
+}
+.row-eq-height{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bgImg{
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media all and (max-Width: 767px) {
+  .row-eq-height{
+    display: block;
+  }
+  .bgImg{
+    height: 20rem;
+  }
+}
+
+
+/*####### ENDE Allgemein ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*####### head ##########*/
+.headline{
+  margin-left: 2rem;
+}
+.bg-img-header{
+  background-image: url("../images/bg-img/header-start.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h4{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  line-height: 1.5;
+  text-align: left;
+  color: #4a4a4a;
+}
+.height{
+  height: 280px;
+}
+.sm-margin{
+  margin-top: 0rem;
+  padding-left: 3rem;
+}
+
+@media all and (max-Width:767px) {
+  .height{
+    height: 200px;
+  }
+  .sm-margin{
+    margin-top: 15rem;
+    padding: 1.875rem;
+  }
+}
+.landing-img-1, .landing-img-2{
+  box-shadow: 5px 10px 20px 0 rgba(74, 74, 74, 0.3);
+}
+.landing-img-1{
+  position: absolute;
+  top: 0;
+  left: -35px;
+  width: 240px;
+  height: 300px;
+}
+.landing-img-2{
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  width: 240px;
+  height: 300px;
+}
+@media all and (max-width:767px) {
+  .landing-img-1{
+    top: 50px;
+    left: 10px;
+  }
+  .landing-img-2{
+    top: 130px;
+    left: 60px;
+  }
+}
+
+/*####### ENDE head ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*####### 3 Stichpunkte ##########*/
+
+.box{
+  padding: 3rem 0 0 0;
+  width: 15.625rem;
+  height: auto;
+}
+.box span{
+  color: #9b9b9b;
+}
+/*####### ENDE 3 Stichpunkte ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*####### Current Solution ##########*/
+
+
+.wrapper-text{
+  padding: 1.875rem;
+  max-width: 780px;
+}
+@media all and (min-Width: 1000px) {
+  .wrapper-text{
+      position: relative;
+      top: 1rem;
+      left: 1rem;
+      position: relative;
+      padding: 3rem;
+      max-width: 780px;/*480*/
+  }
+}
+.imgCurSol{
+  background-image: url("../images/bg-img/img-current.jpg");/* 1x */
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .imgCurSol{
+    background-image: url("../images/bg-img/img-current@2x.jpg");/* 2x */
+  }
+}
+
+/*####### ENDE Current Solution ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*####### Carousel ##########*/
+
+@media all and (max-width: 767px) {
+  .ourSol-large{
+    display: none;
+  }
+  .ourSol-small{
+    display: block;
+  }
+}
+@media all and (min-width: 767px) {
+  .ourSol-large{
+    display: block;
+  }
+  .ourSol-small{
+    display: none;
+  }
+}
+
+
+.wrapper-sm-btn{
+  margin-top: 3rem;
+  width: auto;
+  height: auto;
+}
+.wrapper-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80vw;
+  height: auto;
+}
+.wrapper-sm-btn ul{
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: inherit;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrapper-sm-btn ul li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 2.5rem;
+  background-color: white;
+  float: left;
+}
+.wrapper-sm-btn ul li span{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3rem;
+  color: inherit;
+}
+.anim-sm{
+  color: #0b3668;
+  border-radius: 2.5rem;
+  background-color: white;
+}
+.anim-sm:hover{
+  color: white;
+  border-radius: 2.5rem;
+  background-color: #0b3668;
+}
+.sm-active{
+  background-color: #0b3668!important;
+  color: white;
+}
+.line{
+  z-index: 0;
+  position: relative;
+  top: 2.6rem;
+  left: 0;
+  width: 100vw;
+  height: 0.3rem;
+  margin: 0rem;
+  background-color: white;
+}
+
+.anim-lg, .anim-sm{
+  cursor: pointer;
+}
+.anim-lg:hover{
+  border-bottom: 0.25rem solid #0b3668;
+  font-weight: bold;
+}
+.lg-active{
+  border-bottom: 0.25rem solid #0b3668;
+  font-weight: bold;
+}
+#myCarousel{
+  width: 100%;
+  height: auto;
+}
+.item{
+  padding-top: 2rem;/*30*/
+}
+.ul-content{
+  padding: 0 3rem 7rem 3rem;
+}
+.ul-content > h2{
+  padding-bottom: 0.8rem;/*10*/
+}
+.ul-content > ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-img-1{
+  background-image: url("../images/carousel/carousel_image_1.jpg");
+}
+.carousel-img-2{
+  background-image: url("../images/carousel/carousel_image_2.jpg");
+}
+.carousel-img-3{
+  background-image: url("../images/carousel/carousel_image_3.jpg");
+}
+/*####### ENDE Carousel ##########*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*######## Benefits #####*/
+
+.benefitsList{
+  padding: 1rem 3rem;
+}
+@media all and (max-Width: 767px) {
+  .benefitsList{
+    margin: auto;
+    padding: 0;
+    width: 22rem;
+    padding-bottom: 2rem;
+  }
+}
+.posBenefitsList{
+  padding: 5rem 1rem;
+}
+.benefits ul{
+  margin: 0;
+  margin-top: 3rem;
+  padding-left: 0;
+}
+.benefits li{
+  background: url("../images/icons/check-dark.svg") no-repeat left top;
+  padding: 0 0 0rem 3rem;
+  position: relative;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+.benefits li h2{
+  position: relative;
+  top: 0rem;
+  left: 1rem;
+}
+
+.imgBenefits{
+  background-image: url("../images/bg-img/img-benefits.jpg");/* 1x */
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .imgBenefits{
+    background-image: url("../images/bg-img/img-benefits@2x.jpg");/* 2x */
+  }
+}
+
+/*######## ENDE Benefits #####*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*######## Suppoert #####*/
+
+.img-sup{
+  padding: 2rem;
+  /*border: 1px solid red;*/
+}
+.img-resp{
+  width: 12.15rem;
+  height: 6.25rem;
+  object-fit: contain;
+  object-position: center;
+}
+@media all and (max-Width: 767px) {
+  .img-resp{
+    width: 8rem;
+    height: 5rem;
+  }
+}
+@media all and (max-Width: 500px) {
+  .img-resp{
+    width: 6rem;
+    height: 3rem;
+  }
+}
+@media all and (max-Width: 400px) {
+  .img-resp{
+    width: 4rem;
+    height: 2rem;
+  }
+}
+
+@media all and (max-Width: 767px) {
+  .img-sup{
+    padding: 0.8rem;
+  }
+  .sm-padding{
+    padding: 0;
+    margin: 0 0 0 0.8rem;
+    font-size: 1.2rem;
+  }
+}
+
+/*######## ENDE Support #####*/
+/*#####################################*/
+/*#####################################*/
+/*#####################################*/
+/*######## small contact #####*/
+
+.sm-contact{
+  padding: 1rem 0;
+}
+
+@media all and (max-Width: 767px) {
+  .sm-contact{
+    padding: 2rem 0rem 2rem 1rem;
+    margin: auto;
+  }
+  .wrapper-sm-contact{
+    width: 21rem;
+    margin: auto;
+  }
+
+}
+.img-logo{
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  width: 200px;
+  height: 65px;
+  margin-bottom: 2rem;
+}
+@media all and (max-Width: 767px) {
+	.img-logo{
+		left: -0.8rem;
+	}
+}
+
+.sm-contact ul{
+  width: 15rem;
+  height: auto;
+  margin: 3rem 0;
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.sm-contact ul li{
+
+}
+.margin-bottom{
+  position: relative;
+  top: -0.8rem;
+  left: 0;
+}
+.icons{
+  margin-right: 1rem;
+  float: left;
+}
+.icons ul{
+  margin: 3rem 0;
+}
+
+
+/*######## ENDE small contact #####*/
+
+.copy a{
+  text-decoration: none;
+}
+.copy a:hover{
+  font-weight: 700;
+}

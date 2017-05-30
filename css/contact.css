@@ -1,0 +1,128 @@
+/*########### Contact Form ##############*/
+.bg-img-contact{
+  width: 100vw;
+  height: 40rem;
+  background-image: url("../images/bg-img/header-contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .bg-img-contact{
+    background-image: url("../images/bg-img/header-contact@2x.jpg");/* 2x */
+  }
+}
+.contactForm{
+  margin: 0 auto;
+  background: none;
+  margin-top: -12rem;
+  box-shadow: 5px 10px 20px 0 rgba(74, 74, 74, 0.3);
+}
+.contact-input{
+  padding: 3rem 2rem 2rem 7rem;
+  background-color: white;
+}
+.wrapper-form{
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+input, textarea{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.44;
+  color: #4a4a4a;
+  width: 70%;
+  padding: 0;
+  margin: 0.4rem 0;
+  padding: 0.3rem 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+	border-radius: 0;
+  border-bottom: 0.15rem solid #0b3668;
+  box-shadow: none;
+}
+textarea{
+  resize: none;
+}
+
+
+
+.contact-text{
+  padding: 3rem 2rem 2rem 2rem;
+}
+@media all and (max-Width:767px) {
+  .contact-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem 2rem 2rem 2rem;
+  }
+  .box{
+    padding: 0 0rem;
+  }
+}
+
+.contact-text ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-text ul li{
+  height: auto;
+  width: auto;
+  padding: 0rem 0rem 1rem 3rem;
+  /* reset styles (optional): */
+  list-style: none;
+}
+.contact-text ul li span{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1.44;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+.icon-tel{
+  background: url("../images/icons/contact/icon-tel.svg") no-repeat left top;
+}
+.icon-eMail{
+  background: url("../images/icons/contact/icon-eMail.svg") no-repeat left top;
+}
+
+.btn-submit{
+  border: 0.15rem solid  #0b3668;
+  border-radius: 0;
+}
+.btn-submit span{
+  font-size: 1.2rem;
+  color: #0b3668;
+  margin-left: 1rem;
+}
+.btn-submit img{
+  position: relative;
+  top: -0.1rem;
+}
+.btn-submit:hover{
+  border: 0.15rem solid  #0b3668;
+  border-radius: 0;
+  background-color: rgba(11, 54, 104, 0.1);
+
+}
+
+/*########### ENDE Contact Form ##############*/
+
+
+.team{
+  padding: 6rem 0;
+  max-width: 750px;
+}
+.padding-bottom{
+	padding-bottom: 2rem;
+}
+.img-team{
+  border-radius: 125px;
+  width: 15rem;
+  height: 15rem;
+}
